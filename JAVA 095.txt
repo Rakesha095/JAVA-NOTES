@@ -1,0 +1,139 @@
+1] Print n natural numbers:(for)
+
+PROGRAM:
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the n value:");
+  int a = sc.nextInt();
+  for(int i=1;i<=a;i++)
+  {
+      System.out.println(i);
+  }
+    }
+}
+
+OUTPUT:
+Enter the n value:
+15
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+
+
+2] Print n natural numbers:(while)
+
+PROGRAM :
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the n value:");
+  int a = sc.nextInt();
+  int i=1;
+  while(a>=i)
+  {
+      System.out.println(i);
+      i++;
+  }
+    }
+}
+
+OUTPUT:
+Enter the n value:
+12
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+
+
+3] Print n natural numbers in reverse :
+
+PROGRAM:
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the n value:");
+  int a = sc.nextInt();
+    System.out.println("The  Numbers are:");
+  for(int i=0;i<a;a--)
+  {
+      System.out.println(a);
+  }
+    }
+}
+
+
+OUTPUT:
+Enter the n value:
+5
+The  Numbers are:
+5
+4
+3
+2
+1
+ 
+4]print even no till n in reverse;
+  print odd till n in reverse;
+
+
+
+5] Multiplication table
+
+PROGRAM:
+import java.util.*;
+class Main
+{
+    public static void main(String[] args) 
+    {
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the n value:");
+  int a = sc.nextInt();
+  System.out.println("Enter the no of table:");
+  int a1 = sc.nextInt();
+   for(int j=1;j<=a;j++)
+    {
+      System.out.println(j+"X"+a1+"="+j*a1);
+    
+     }
+
+    }
+}
+
+
+OUTPUT:
+Enter the n value:
+5
+Enter the no of table:
+1
+1X1=1
+2X1=2
+3X1=3
+4X1=4
+5X1=5
